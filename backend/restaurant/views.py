@@ -1,15 +1,17 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .serializers import TodoSerializer
-from .serializers import UserSerializer
-from .models import Todo
-from .models import User
+from .serializers import *
+from .models import *
 
 # Create your views here.
 
 class TodoView(viewsets.ModelViewSet):
     serializer_class = TodoSerializer
     queryset = Todo.objects.all()
+
+class RestaurantView(viewsets.ModelViewSet):
+    serializer_class = RestaurantSerializer
+    queryset = Restaurant.objects.all()
 
 class UserView(viewsets.ModelViewSet):
     serializer_class = UserSerializer

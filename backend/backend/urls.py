@@ -5,7 +5,8 @@ from restaurant import views
 
 router = routers.DefaultRouter()
 router.register(r'todos', views.TodoView, 'todo')
-router.register(r'users', views.UserView, 'user`')
+router.register(r'Restaurants', views.RestaurantView, 'Restaurant')
+router.register(r'Users', views.UserView, 'User')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
