@@ -1,7 +1,11 @@
 /* Constant header 'navbar that will change according to being signed in or not signed' */
+import {Link} from 'react-router-dom'
+
 
 export default function Header() {
   return (
-    <div>Header</div>
+    <header classname='header'>
+        
+    </header>
   )
 }
