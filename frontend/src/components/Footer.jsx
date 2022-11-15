@@ -37,7 +37,7 @@ function Footer() {
             <h5 className="footer__title">Contact</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <p>Location: 4800 Calhoun Rd, Houston, TX 77004</p>
+                <span>Location: 4800 Calhoun Rd, Houston, TX 77004</span>
               </ListGroupItem>
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
                 <span>Phone: (832)-444-COOG </span>
